@@ -15,7 +15,7 @@ class Erp extends Component {
                        
                             {ErpRoutes.map((value,i)=>{
                                 return(
-                                    <Route exact path={value.path} component={value.component}/>
+                                    <Route path={value.path} component={value.component}/>
                                 )
                             })}
                     

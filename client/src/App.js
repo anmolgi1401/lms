@@ -14,7 +14,7 @@ class App extends Component {
                         <Switch>
                             {AppRoutes.map((value,key)=>{
                                 return(
-                                    <Route exact path={value.path} component={value.component} />
+                                    <Route path={value.path} component={value.component} />
                                 )    
                             })}
                         </Switch>
